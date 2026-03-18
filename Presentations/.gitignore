@@ -1,0 +1,14 @@
+# LaTeX build artefacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex*
+*.tmp.*
+*.fls
+*.fdb_latexmk
+
+# Legacy files (kept locally, not tracked)
+legacy/

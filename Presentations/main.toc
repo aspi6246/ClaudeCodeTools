@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Why should you care?}{3}{0}{1}
+\beamer@sectionintoc {2}{What is Claude Code?}{6}{0}{2}
+\beamer@sectionintoc {3}{Setting up a new project}{12}{0}{3}
+\beamer@sectionintoc {4}{Understanding Claude Code}{19}{0}{4}
+\beamer@sectionintoc {5}{The workflow: How to use Claude}{39}{0}{5}
+\beamer@sectionintoc {6}{Where to start?}{45}{0}{6}
+\beamer@sectionintoc {7}{How to stay safe}{50}{0}{7}
+\beamer@sectionintoc {8}{Problems to be aware of}{55}{0}{8}
+\beamer@sectionintoc {9}{Where to from here?}{58}{0}{9}
+\beamer@sectionintoc {10}{Advanced Workflows}{66}{0}{10}
