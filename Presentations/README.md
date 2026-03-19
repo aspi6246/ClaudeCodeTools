@@ -1,1 +1,1 @@
-Copy of presentation
+Copy of presentation, "Claude Code for Academics".
