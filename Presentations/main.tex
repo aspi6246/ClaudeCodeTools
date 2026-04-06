@@ -1,4 +1,4 @@
-% ============================================================================
+﻿% ============================================================================
 % Claude Code for Finance Academics — A Brownbag Presentation
 %   Baylor-style: clean, academic, minimal (Metropolis-inspired)
 % ============================================================================
@@ -506,18 +506,17 @@
 \begin{tikzpicture}[
   tool/.style={fill=lightice, draw=navy!15, rounded corners=3pt,
     text width=12cm, inner sep=5pt, font=\small, align=left},
+  cat/.style={fill=navy!8, draw=navy!30, rounded corners=3pt,
+    text width=12cm, inner sep=5pt, font=\small, align=left},
   node distance=0.06cm,
 ]
-  \node[tool] (t1) {\textbf{\color{navy}GitHub Copilot / Cursor} --- excellent for code completion inside an IDE. Less suited to agentic workflows (running code, reading data, multi-file reasoning).};
-  \node[tool, below=of t1] (t2) {\textbf{\color{navy}ChatGPT / Gemini} --- browser-based chat. Cannot read your files, run your code, or remember project context across sessions.};
-  \node[tool, below=of t2] (t3) {\textbf{\color{navy}OpenAI Codex CLI} --- similar agentic model to Claude Code. Newer, less mature ecosystem.};
-  \node[tool, below=of t3] (t4) {\textbf{\color{navy}Claude Code} --- terminal-based agent that reads files, runs code, and builds persistent memory via markdown. Strongest for \emphgold{research workflows} that span code, data, and writing.};
+  \node[cat] (c1) {\textbf{\color{navy}Agentic systems} read/edit files, run code, use tools (MCP). Persistent memory/instructions via markdown files (so no vendor lock in: if you switch tools, your project knowledge transfers).};
+  \node[tool, below=of c1] (t1) {\quad\textbf{\color{navy}Claude Code} --- terminal-based. No IDE needed --- works alongside your existing tools (e.g. RStudio, Stata, Overleaf).};
+  \node[tool, below=of t1] (t2) {\quad\textbf{\color{navy}OpenAI Codex CLI} --- terminal-based. Newer, less mature ecosystem.};
+  \node[tool, below=of t2] (t3) {\quad\textbf{\color{navy}GitHub Copilot} --- Use in existing IDEs. Code, preview, & AI chat in one window. Also accessible via github.com.};
+  \node[tool, below=of t3] (t4) {\quad\textbf{\color{navy}Cursor} --- standalone AI-native IDE based on VS Code.};
+  \node[cat, below=of t4] (c2) {\textbf{\color{navy}Non-agentic systems: ChatGPT / Gemini} --- browser-based chat. Cannot operate on your local project files or maintain context across sessions.};
 \end{tikzpicture}
-
-\vspace{0.1cm}
-\begin{keyinsight}
-  {\small The markdown-based memory system (CLAUDE.md, skills, rules) means \emphgold{no vendor lock-in}. If you switch tools, your project knowledge transfers.}
-\end{keyinsight}
 \end{frame}
 
 
